@@ -1,0 +1,25 @@
+{
+  "name": "ehs-cv-formatter",
+  "version": "1.0.0",
+  "description": "AI-Powered CV Formatter for EHS",
+  "private": true,
+  "workspaces": [
+    "ehs-api",
+    "ehs-client"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\"",
+    "dev:api": "cd ehs-api && npm run dev",
+    "dev:client": "cd ehs-client && npm run dev",
+    "build": "npm run build:api && npm run build:client",
+    "build:api": "cd ehs-api && npm run build",
+    "build:client": "cd ehs-client && npm run build",
+    "start": "concurrently \"npm run start:api\" \"npm run start:client\"",
+    "start:api": "cd ehs-api && npm start",
+    "start:client": "cd ehs-client && npm start",
+    "install:all": "npm install && cd ehs-api && npm install && cd ../ehs-client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

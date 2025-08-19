@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red circle background -->
+  <circle cx="60" cy="60" r="55" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+  
+  <!-- White "ehs" text in elegant script style -->
+  <text x="60" y="70" font-family="Georgia, serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold" font-style="italic">
+    ehs
+  </text>
+  
+  <!-- Subtle inner circle for depth -->
+  <circle cx="60" cy="60" r="45" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+</svg>

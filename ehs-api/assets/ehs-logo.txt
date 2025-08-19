@@ -1,0 +1,21 @@
+EHS Logo Description:
+====================
+
+Design: Circular logo with red background and white text
+- Background: Red circle (#DC2626) with darker red border (#B91C1C)
+- Text: "ehs" in white, elegant script font
+- Size: 120x120 pixels
+- Style: Professional, clean, modern
+
+To create the PNG:
+1. Use any image editor (Photoshop, GIMP, Canva, etc.)
+2. Create a 120x120 pixel canvas
+3. Draw a red circle (#DC2626) with darker border (#B91C1C)
+4. Add white "ehs" text in an elegant script font
+5. Save as PNG with transparent background
+6. Place in this assets folder as "ehs-logo.png"
+
+The logo will then appear in:
+- CV exports (top of document)
+- Registration form exports (top of document)
+- Web interface header and footer
